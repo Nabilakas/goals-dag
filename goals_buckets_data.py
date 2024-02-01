@@ -10,8 +10,8 @@ import warnings
 warnings.filterwarnings('ignore')
 class goals_ETL:
     def __init__(self):
-        self.access_key = "SCWSHP5FCYZTXQ55XHBH"
-        self.secret_key = "f943ad23-f89c-4bea-ae91-6bc5cb716c4d"
+        self.access_key = "YOUR_ACCESS_KEY_VARIABLE"
+        self.secret_key = "YOUR_SECRET_KEY_VARIABLE"
         # Specify the bucket name
         self.bucket_name = "dashboard-goals"
         self.goals = []
